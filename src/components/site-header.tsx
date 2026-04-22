@@ -43,12 +43,7 @@ export async function SiteHeader() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex min-h-16 items-center justify-between py-2">
         <Link href="/" className="flex items-center gap-2">
-          <span className="grid h-9 w-9 place-items-center rounded-full bg-primary text-primary-foreground font-display text-lg">
-            L
-          </span>
-          <span className="font-display text-base font-semibold tracking-tight sm:text-lg">
-            Laura Gonzalez
-          </span>
+          <img src="/logo_laura.png" alt="Laura Gonzalez" className="h-10 w-auto object-contain" />
         </Link>
 
         <nav className="hidden gap-1 md:flex">

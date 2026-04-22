@@ -81,15 +81,15 @@ export default async function LandingPage() {
               <div className="relative animate-fade-in">
                 <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-3xl border border-primary/20 bg-gradient-to-br from-primary/20 via-accent/30 to-primary/10 p-1 shadow-2xl shadow-primary/20">
                   <div className="flex h-full w-full flex-col items-center justify-center gap-6 rounded-[22px] bg-gradient-to-br from-white via-muted to-accent/20 p-8">
-                    <div className="grid h-32 w-32 place-items-center rounded-full bg-gradient-to-br from-primary to-accent text-5xl font-display font-bold text-white shadow-xl shadow-primary/30">
-                      L
+                    <div className="grid h-32 w-32 place-items-center rounded-full bg-white p-2 shadow-xl shadow-primary/30">
+                      <img src="/logo_laura.png" alt="Laura Gonzalez Logo" className="h-full w-full object-contain" />
                     </div>
                     <div className="text-center">
                       <p className="font-display text-2xl font-semibold">
                         Laura Gonzalez
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        Treinos para você se sentir mais forte
+                        Treino para você se sentir mais condicionada
                       </p>
                     </div>
                     <div className="grid w-full grid-cols-2 gap-3 text-center text-sm">
@@ -274,10 +274,10 @@ export default async function LandingPage() {
                 Domingo · 09h00
               </p>
               <h3 className="mt-2 font-display text-xl font-semibold">
-                Funcional (datas especiais)
+                Funcional + Tênis
               </h3>
               <p className="mt-2 text-sm text-muted-foreground">
-                Datas variáveis publicadas conforme disponibilidade.
+                Treino funcional para preparar o corpo + aula de tênis.
               </p>
             </Card>
           </div>
